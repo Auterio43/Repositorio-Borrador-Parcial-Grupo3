@@ -1,2 +1,6 @@
 # Repositorio-de-Grupo-3
-Holaa
+Integrantes:
+- Diestra Buelot, Valeria Guadalupe
+- Bustillos Semeler, Gustavo Enrique
+- Ovalle Muñoz, Stayci Marisol
+- Diaz Pasache, Sebastian Mauricio
