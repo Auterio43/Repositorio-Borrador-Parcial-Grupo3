@@ -100,7 +100,7 @@ class Usuario:
 # ==========================================
 # 2. CÓDIGO DE TU SIMULACIÓN
 # ==========================================
-print("========= USUARIOS DE INSTAGRAM =========")
+print("========= SIMULACIÓN DE USUARIOS DE INSTAGRAM DEFINIDOS (GRUPO 3) =========")
 
 # Lista de datos crudos
 datos_usuarios = [
@@ -110,15 +110,15 @@ datos_usuarios = [
     ["sebastian_4", "Sebastián Mauricio Díaz Pasache", "sdiaz@gmail.com"]
 ]
 
-# Lista vacía donde guardaremos los objetos Usuario ya creados
-lista_objetos_usuarios = []
+# Mostrando los datos completos de usuarios definidos
+print("=================== INFORMACIÓN DE REGISTRO PREVIO ===================")
+for usuario_definido in datos_usuarios:
+    print(usuario_definido)
+print() # Salto de línea
 
-# Iteramos sobre la lista de datos crudos
+# Mostrando información de su cuenta de Instagram (user, seguidores, publicaciones)
+# Establecido previamente en el atributo de clase Usuario
+print("=================== INFORMACIÓN DE CUENTA INSTAGRAM ===================")
 for datos in datos_usuarios:
-    # Instanciamos la clase Usuario (que ahora está definida arriba)
     nuevo_usuario = Usuario(datos[0], datos[1], datos[2])
-    lista_objetos_usuarios.append(nuevo_usuario)
-
-# Imprimimos los OBJETOS
-for usuario in lista_objetos_usuarios:
-    print(usuario)
+    print(nuevo_usuario)
