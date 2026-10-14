@@ -1,6 +1,4 @@
 # =========================================================
-# 1. DEFINICIÓN DE LA CLASE (Esqueleto completo sin usar import)
-# =========================================================
 class Usuario:
     red = "Instagram"
 
@@ -51,7 +49,7 @@ class Usuario:
 
 
 # =========================================================
-# 2. FUNCIONES DEL MENÚ
+# 1. FUNCIONES DEL MENÚ
 # =========================================================
 def mostrar_menu():
     print("\n" + "="*60)
@@ -67,7 +65,7 @@ def main():
     # Diccionario central para guardar los OBJETOS
     red_social = {}
     
-    print("\n========== INFORMACIÓN DE REGISTRO PREVIO ==========")
+    print("\n========== INFORMACIÓN DE REGISTRO PREVIO DE USUARIOS DEFINIDOS ==========")
     
     # Aquí están tus datos definidos tal cual tu imagen
     datos_usuarios = [
@@ -93,7 +91,7 @@ def main():
     print("✅ Todos los usuarios han sido convertidos a objetos exitosamente.")
 
     # =========================================================
-    # 3. BUCLE DEL MENÚ INTERACTIVO
+    # 2. BUCLE DEL MENÚ INTERACTIVO
     # =========================================================
     while True:
         mostrar_menu()
@@ -101,6 +99,7 @@ def main():
 
         if opcion == '1':
             print("\n========== INFORMACIÓN DE CUENTA INSTAGRAM ==========")
+            print("|===== User ====|========= Nombre Completo =========|======== Correo =======|")
             for usuario_definido in datos_usuarios:
                 print(usuario_definido) 
                 
