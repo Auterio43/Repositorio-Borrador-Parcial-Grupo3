@@ -69,7 +69,7 @@ def main():
     
     # Aquí están tus datos definidos tal cual tu imagen
     datos_usuarios = [
-        ["valedies_1", "Valeria Guadalupe Diestra Vuelot", "valediestra@gmail.com"],
+        ["valedies_1", "Valeria Guadalupe Diestra Buelot", "valediestra@gmail.com"],
         ["gbustillos_2", "Gustavo Enrique Bustillos Semeler", "gbustillos@gmail.com"],
         ["stayci_3", "Stayci Marisol Ovalle Muñoz", "sovalle@gmail.com"],
         ["sebastian_4", "Sebastián Mauricio Díaz Pasache", "sdiaz@gmail.com"]
