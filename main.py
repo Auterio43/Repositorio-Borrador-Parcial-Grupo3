@@ -158,7 +158,7 @@ def main():
                             print("\n--- INTERACCIÓN CON EL FEED ---")
                             print("A. Ver detalles (Quién dio like y leer comentarios)")
                             print("B. Dar un Like a una publicación")
-                            print("C. Salir de este feed")
+                            print("C. Salir de este feed (Volver a las subopciones de la opción 4)")
                             accion = input("Elige (A/B/C): ").strip().upper()
 
                             if accion == 'A':
